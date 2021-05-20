@@ -16,7 +16,7 @@ namespace ReadBooks
         public string ISBN { get; set; }
         public DateTime FinishedDate { get; set; }
 
-        public static MobileServiceClient client = new MobileServiceClient("https://readbooks7.azurewebsites.net");
+        public static MobileServiceClient client = new MobileServiceClient("https://sqlwebapp77-sqlwebappslot.azurewebsites.net");
 
         public async Task<bool> SaveBook()
         {
